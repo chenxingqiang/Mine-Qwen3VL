@@ -1,0 +1,73 @@
+{
+  "steps": {
+    "Data Loading": {
+      "status": "PASS",
+      "details": {
+        "data_shape": "(350, 350, 224)",
+        "wavelengths": "400.0-2500.0nm",
+        "labels_unique": "[0, 1, 2, 3, 7]"
+      }
+    },
+    "Preprocessing": {
+      "status": "PASS",
+      "details": {
+        "original_bands": 224,
+        "after_removal": 189,
+        "removed": 35
+      }
+    },
+    "Band Combination": {
+      "status": "PASS",
+      "details": {
+        "combinations": [
+          "clay_minerals",
+          "iron_oxide",
+          "natural_color"
+        ],
+        "rgb_shape": "(350, 350, 3)",
+        "value_range": "[0.000, 1.000]"
+      }
+    },
+    "Tiling": {
+      "status": "PASS",
+      "details": {
+        "total_tiles": 4,
+        "positive_tiles": 4,
+        "tile_size": 224,
+        "stride": 112
+      }
+    },
+    "Annotation Generation": {
+      "status": "PASS",
+      "details": {
+        "total_items": 4,
+        "valid_items": 4,
+        "task_distribution": "{'binary': 2, 'mineral': 1, 'analysis': 1}",
+        "validation_errors": 0
+      }
+    },
+    "Dataset Split & Save": {
+      "status": "PASS",
+      "details": {
+        "train_items": 3,
+        "val_items": 1,
+        "train_file": "/Users/xingqiangchen/Mine-Qwen3VL/data/cuprite_dataset/train.json",
+        "val_file": "/Users/xingqiangchen/Mine-Qwen3VL/data/cuprite_dataset/val.json"
+      }
+    },
+    "Qwen3-VL Format Validation": {
+      "status": "PASS",
+      "details": {
+        "has_image_field": true,
+        "has_conversations": true,
+        "conversations_is_list": true,
+        "has_human_turn": true,
+        "has_gpt_turn": true,
+        "has_image_tag": true
+      }
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

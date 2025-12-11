@@ -1,0 +1,21 @@
+[
+  {
+    "image": "tiles/tile_0000_0000.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n分析该区域是否具有铜矿化潜力？"
+      },
+      {
+        "from": "gpt",
+        "value": "是，该区域存在明显的蚀变特征。检测到Alunite、Kaolinite、Muscovite、Chlorite，铜矿相关矿物占比约100.0%，属于高级泥化带，具有铜矿化潜力。"
+      }
+    ],
+    "metadata": {
+      "task_type": "binary",
+      "is_copper_alteration": true,
+      "copper_mineral_ratio": 0.9998,
+      "dominant_mineral": "Kaolinite"
+    }
+  }
+]

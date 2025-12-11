@@ -1,0 +1,59 @@
+[
+  {
+    "image": "tiles/tile_0000_0001.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n请识别该高光谱图像中的主要蚀变矿物类型。"
+      },
+      {
+        "from": "gpt",
+        "value": "该区域检测到以下矿物：Alunite、Kaolinite、Muscovite、Chlorite。其中Muscovite占比最高，约81.5%。"
+      }
+    ],
+    "metadata": {
+      "task_type": "mineral",
+      "is_copper_alteration": true,
+      "copper_mineral_ratio": 1.0,
+      "dominant_mineral": "Muscovite"
+    }
+  },
+  {
+    "image": "tiles/tile_0001_0001.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n结合图像特征，给出该区域的地质解释。"
+      },
+      {
+        "from": "gpt",
+        "value": "该区域高光谱分析结果如下：\n\n1. **蚀变矿物组合**: Kaolinite、Muscovite、Chlorite\n2. **蚀变类型**: 绢英岩化-泥化带\n3. **矿化评估**: 铜矿相关矿物覆盖率99.4%，矿化潜力较高\n4. **找矿建议**: 建议开展进一步地质调查和化探工作\n\n综合判断，该区域为铜矿蚀变带，值得重点关注。"
+      }
+    ],
+    "metadata": {
+      "task_type": "analysis",
+      "is_copper_alteration": true,
+      "copper_mineral_ratio": 0.9936,
+      "dominant_mineral": "Muscovite"
+    }
+  },
+  {
+    "image": "tiles/tile_0001_0000.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n分析该区域是否具有铜矿化潜力？"
+      },
+      {
+        "from": "gpt",
+        "value": "是，该区域存在明显的蚀变特征。检测到Alunite、Kaolinite、Muscovite、Chlorite，铜矿相关矿物占比约98.4%，属于绢英岩化-泥化带，具有铜矿化潜力。"
+      }
+    ],
+    "metadata": {
+      "task_type": "binary",
+      "is_copper_alteration": true,
+      "copper_mineral_ratio": 0.984,
+      "dominant_mineral": "Chlorite"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "shape": [
+    350,
+    350,
+    224
+  ],
+  "wavelength_range": [
+    400.0,
+    2500.0
+  ],
+  "n_bands": 224,
+  "data_type": "synthetic",
+  "description": "Synthetic hyperspectral data for pipeline verification"
+}

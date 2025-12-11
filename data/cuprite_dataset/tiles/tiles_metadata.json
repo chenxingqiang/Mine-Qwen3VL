@@ -1,0 +1,48 @@
+{
+  "tile_size": 224,
+  "stride": 112,
+  "min_valid_ratio": 0.8,
+  "total_tiles": 4,
+  "tiles": [
+    {
+      "filename": "tile_0000_0000.png",
+      "row": 0,
+      "col": 0,
+      "y_start": 0,
+      "y_end": 224,
+      "x_start": 0,
+      "x_end": 224,
+      "valid_ratio": 1.0
+    },
+    {
+      "filename": "tile_0000_0001.png",
+      "row": 0,
+      "col": 1,
+      "y_start": 0,
+      "y_end": 224,
+      "x_start": 112,
+      "x_end": 336,
+      "valid_ratio": 1.0
+    },
+    {
+      "filename": "tile_0001_0000.png",
+      "row": 1,
+      "col": 0,
+      "y_start": 112,
+      "y_end": 336,
+      "x_start": 0,
+      "x_end": 224,
+      "valid_ratio": 1.0
+    },
+    {
+      "filename": "tile_0001_0001.png",
+      "row": 1,
+      "col": 1,
+      "y_start": 112,
+      "y_end": 336,
+      "x_start": 112,
+      "x_end": 336,
+      "valid_ratio": 1.0
+    }
+  ]
+}
