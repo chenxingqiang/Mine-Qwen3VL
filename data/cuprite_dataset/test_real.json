@@ -1,0 +1,107 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\nProvide a detailed analysis of the mineral alteration features visible in this hyperspectral image, including mineral types, distribution, and geological significance."
+      },
+      {
+        "from": "assistant",
+        "value": "This image shows background terrain with no significant hydrothermal alteration signatures detected."
+      }
+    ],
+    "images": [
+      "labeled_tiles/tile_0004.png"
+    ],
+    "metadata": {
+      "task_type": "analysis",
+      "has_alteration": false,
+      "dominant_mineral": "Epidote",
+      "alteration_percentage": 0.12555803571428573
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\nDoes this hyperspectral image show copper-related alteration features?"
+      },
+      {
+        "from": "assistant",
+        "value": "No, this image does not show significant hydrothermal alteration."
+      }
+    ],
+    "images": [
+      "labeled_tiles/tile_0005.png"
+    ],
+    "metadata": {
+      "task_type": "binary",
+      "has_alteration": false,
+      "dominant_mineral": "Epidote",
+      "alteration_percentage": 0
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\nProvide a detailed analysis of the mineral alteration features visible in this hyperspectral image, including mineral types, distribution, and geological significance."
+      },
+      {
+        "from": "assistant",
+        "value": "This image shows background terrain with no significant hydrothermal alteration signatures detected."
+      }
+    ],
+    "images": [
+      "labeled_tiles/tile_0005.png"
+    ],
+    "metadata": {
+      "task_type": "analysis",
+      "has_alteration": false,
+      "dominant_mineral": "Epidote",
+      "alteration_percentage": 0
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\nIdentify the main alteration minerals in this hyperspectral image."
+      },
+      {
+        "from": "assistant",
+        "value": "Detected minerals: Muscovite (0.2%), Epidote (99.8%)."
+      }
+    ],
+    "images": [
+      "labeled_tiles/tile_0000.png"
+    ],
+    "metadata": {
+      "task_type": "mineral",
+      "has_alteration": false,
+      "dominant_mineral": "Epidote",
+      "alteration_percentage": 0.16541772959183673
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\nIdentify the main alteration minerals in this hyperspectral image."
+      },
+      {
+        "from": "assistant",
+        "value": "Detected minerals: Epidote (100.0%)."
+      }
+    ],
+    "images": [
+      "labeled_tiles/tile_0002.png"
+    ],
+    "metadata": {
+      "task_type": "mineral",
+      "has_alteration": false,
+      "dominant_mineral": "Epidote",
+      "alteration_percentage": 0
+    }
+  }
+]

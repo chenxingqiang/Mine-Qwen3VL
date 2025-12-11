@@ -76,34 +76,19 @@ echo "GPUs: ${NPROC_PER_NODE}"
 echo ""
 
 # Check if dataset exists
-if [ ! -f "${DATASET_DIR}/train.json" ]; then
-    echo "Error: Training data not found at ${DATASET_DIR}/train.json"
-    echo "Please run: python scripts/prepare_cuprite_data.py first"
+if [ ! -f "${DATASET_DIR}/train_qwenvl.json" ]; then
+    echo "Error: Training data not found at ${DATASET_DIR}/train_qwenvl.json"
+    echo "Please run: python scripts/generate_pseudo_labels.py && python scripts/convert_to_qwenvl_format.py first"
     exit 1
 fi
 
 # Create output directory
 mkdir -p "${OUTPUT_DIR}"
 
-# Setup dataset configuration for Qwen-VL-Finetune
-# We need to add our dataset to the data/__init__.py or use a custom config
-
-# Create a temporary dataset config
-DATASET_CONFIG="${OUTPUT_DIR}/dataset_config.py"
-cat > "${DATASET_CONFIG}" << EOF
-# Auto-generated dataset configuration for Cuprite
-CUPRITE_TRAIN = {
-    "annotation_path": "${DATASET_DIR}/train.json",
-    "data_path": "${DATASET_DIR}",
-}
-
-CUPRITE_VAL = {
-    "annotation_path": "${DATASET_DIR}/val.json",
-    "data_path": "${DATASET_DIR}",
-}
-EOF
-
-echo "Dataset configuration saved to ${DATASET_CONFIG}"
+# Dataset is registered in qwenvl/data/__init__.py
+echo "Using registered dataset: cuprite_train"
+echo "  Train: ${DATASET_DIR}/train_qwenvl.json ($(wc -l < ${DATASET_DIR}/train_qwenvl.json 2>/dev/null || echo 0) lines)"
+echo "  Val: ${DATASET_DIR}/val_qwenvl.json"
 
 # =============================================================================
 # Training
@@ -153,18 +138,7 @@ ARGS="
     --report_to tensorboard
 "
 
-# Note: Before running, you need to register the dataset in qwenvl/data/__init__.py
-# Add the following to data_dict:
-#
-# CUPRITE_TRAIN = {
-#     "annotation_path": "/path/to/cuprite_dataset/train.json",
-#     "data_path": "/path/to/cuprite_dataset",
-# }
-#
-# data_dict = {
-#     "cuprite_train": CUPRITE_TRAIN,
-#     ...
-# }
+# Dataset already registered in qwenvl/data/__init__.py
 
 echo "Training arguments:"
 echo "${ARGS}"

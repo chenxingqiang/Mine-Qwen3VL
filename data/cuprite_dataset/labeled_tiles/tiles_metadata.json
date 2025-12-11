@@ -1,0 +1,334 @@
+[
+  {
+    "filename": "tile_0000.png",
+    "row": 0,
+    "col": 0,
+    "y_start": 0,
+    "x_start": 0,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Muscovite": {
+          "count": 83,
+          "percentage": 0.16541772959183673,
+          "avg_confidence": 0.07615424692630768
+        },
+        "Epidote": {
+          "count": 50093,
+          "percentage": 99.83458227040816,
+          "avg_confidence": 0.6495906114578247
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.83458227040816,
+      "has_alteration": false,
+      "alteration_percentage": 0.16541772959183673
+    }
+  },
+  {
+    "filename": "tile_0001.png",
+    "row": 0,
+    "col": 1,
+    "y_start": 0,
+    "x_start": 192,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Muscovite": {
+          "count": 90,
+          "percentage": 0.1793686224489796,
+          "avg_confidence": 0.06091487780213356
+        },
+        "Epidote": {
+          "count": 50086,
+          "percentage": 99.82063137755102,
+          "avg_confidence": 0.6640958786010742
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.82063137755102,
+      "has_alteration": false,
+      "alteration_percentage": 0.1793686224489796
+    }
+  },
+  {
+    "filename": "tile_0002.png",
+    "row": 0,
+    "col": 2,
+    "y_start": 0,
+    "x_start": 384,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Epidote": {
+          "count": 50176,
+          "percentage": 100.0,
+          "avg_confidence": 0.5748754739761353
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 100.0,
+      "has_alteration": false,
+      "alteration_percentage": 0
+    }
+  },
+  {
+    "filename": "tile_0003.png",
+    "row": 1,
+    "col": 0,
+    "y_start": 192,
+    "x_start": 0,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Muscovite": {
+          "count": 20,
+          "percentage": 0.03985969387755102,
+          "avg_confidence": 0.16842131316661835
+        },
+        "Epidote": {
+          "count": 50151,
+          "percentage": 99.95017538265306,
+          "avg_confidence": 0.5838054418563843
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.95017538265306,
+      "has_alteration": false,
+      "alteration_percentage": 0.03985969387755102
+    }
+  },
+  {
+    "filename": "tile_0004.png",
+    "row": 1,
+    "col": 1,
+    "y_start": 192,
+    "x_start": 192,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Muscovite": {
+          "count": 63,
+          "percentage": 0.12555803571428573,
+          "avg_confidence": 0.07615448534488678
+        },
+        "Epidote": {
+          "count": 50113,
+          "percentage": 99.87444196428571,
+          "avg_confidence": 0.6122077703475952
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.87444196428571,
+      "has_alteration": false,
+      "alteration_percentage": 0.12555803571428573
+    }
+  },
+  {
+    "filename": "tile_0005.png",
+    "row": 1,
+    "col": 2,
+    "y_start": 192,
+    "x_start": 384,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Epidote": {
+          "count": 50176,
+          "percentage": 100.0,
+          "avg_confidence": 0.610477864742279
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 100.0,
+      "has_alteration": false,
+      "alteration_percentage": 0
+    }
+  },
+  {
+    "filename": "tile_0006.png",
+    "row": 2,
+    "col": 0,
+    "y_start": 384,
+    "x_start": 0,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 13,
+          "percentage": 0.025908801020408163,
+          "avg_confidence": 0.1871398389339447
+        },
+        "Muscovite": {
+          "count": 62,
+          "percentage": 0.12356505102040817,
+          "avg_confidence": 0.14797689020633698
+        },
+        "Epidote": {
+          "count": 50101,
+          "percentage": 99.85052614795919,
+          "avg_confidence": 0.5659903883934021
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.85052614795919,
+      "has_alteration": false,
+      "alteration_percentage": 0.14947385204081634
+    }
+  },
+  {
+    "filename": "tile_0007.png",
+    "row": 2,
+    "col": 1,
+    "y_start": 384,
+    "x_start": 192,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 16,
+          "percentage": 0.03188775510204082,
+          "avg_confidence": 0.17442473769187927
+        },
+        "Muscovite": {
+          "count": 87,
+          "percentage": 0.17338966836734693,
+          "avg_confidence": 0.13657888770103455
+        },
+        "Epidote": {
+          "count": 50073,
+          "percentage": 99.79472257653062,
+          "avg_confidence": 0.5897331833839417
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.79472257653062,
+      "has_alteration": false,
+      "alteration_percentage": 0.20527742346938774
+    }
+  },
+  {
+    "filename": "tile_0008.png",
+    "row": 2,
+    "col": 2,
+    "y_start": 384,
+    "x_start": 384,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 13,
+          "percentage": 0.025908801020408163,
+          "avg_confidence": 0.16738618910312653
+        },
+        "Muscovite": {
+          "count": 451,
+          "percentage": 0.8988360969387755,
+          "avg_confidence": 0.058755602687597275
+        },
+        "Epidote": {
+          "count": 49712,
+          "percentage": 99.07525510204081,
+          "avg_confidence": 0.5411761999130249
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.07525510204081,
+      "has_alteration": false,
+      "alteration_percentage": 0.9247448979591837
+    }
+  },
+  {
+    "filename": "tile_0009.png",
+    "row": 3,
+    "col": 0,
+    "y_start": 576,
+    "x_start": 0,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 13,
+          "percentage": 0.025908801020408163,
+          "avg_confidence": 0.1607334017753601
+        },
+        "Muscovite": {
+          "count": 299,
+          "percentage": 0.5959024234693877,
+          "avg_confidence": 0.20525987446308136
+        },
+        "Epidote": {
+          "count": 49836,
+          "percentage": 99.32238520408163,
+          "avg_confidence": 0.5819282531738281
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.32238520408163,
+      "has_alteration": false,
+      "alteration_percentage": 0.6218112244897959
+    }
+  },
+  {
+    "filename": "tile_0010.png",
+    "row": 3,
+    "col": 1,
+    "y_start": 576,
+    "x_start": 192,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 25,
+          "percentage": 0.04982461734693878,
+          "avg_confidence": 0.18383337557315826
+        },
+        "Muscovite": {
+          "count": 125,
+          "percentage": 0.24912308673469388,
+          "avg_confidence": 0.15974968671798706
+        },
+        "Epidote": {
+          "count": 50026,
+          "percentage": 99.70105229591837,
+          "avg_confidence": 0.5156407952308655
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 99.70105229591837,
+      "has_alteration": false,
+      "alteration_percentage": 0.2989477040816327
+    }
+  },
+  {
+    "filename": "tile_0011.png",
+    "row": 3,
+    "col": 2,
+    "y_start": 576,
+    "x_start": 384,
+    "valid_ratio": 1.0,
+    "analysis": {
+      "minerals": {
+        "Kaolinite": {
+          "count": 28,
+          "percentage": 0.055803571428571425,
+          "avg_confidence": 0.16961026191711426
+        },
+        "Muscovite": {
+          "count": 4347,
+          "percentage": 8.663504464285714,
+          "avg_confidence": 0.05196993425488472
+        },
+        "Epidote": {
+          "count": 45793,
+          "percentage": 91.2647480867347,
+          "avg_confidence": 0.5134840607643127
+        }
+      },
+      "dominant_mineral": "Epidote",
+      "dominant_percentage": 91.2647480867347,
+      "has_alteration": true,
+      "alteration_percentage": 8.719308035714285
+    }
+  }
+]
